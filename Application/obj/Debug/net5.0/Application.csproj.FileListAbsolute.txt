@@ -1,0 +1,17 @@
+E:\CODE\dotnet udemy\Reactivities\Application\bin\Debug\net5.0\Application.deps.json
+E:\CODE\dotnet udemy\Reactivities\Application\bin\Debug\net5.0\Application.dll
+E:\CODE\dotnet udemy\Reactivities\Application\bin\Debug\net5.0\ref\Application.dll
+E:\CODE\dotnet udemy\Reactivities\Application\bin\Debug\net5.0\Application.pdb
+E:\CODE\dotnet udemy\Reactivities\Application\bin\Debug\net5.0\Domain.dll
+E:\CODE\dotnet udemy\Reactivities\Application\bin\Debug\net5.0\Persistance.dll
+E:\CODE\dotnet udemy\Reactivities\Application\bin\Debug\net5.0\Domain.pdb
+E:\CODE\dotnet udemy\Reactivities\Application\bin\Debug\net5.0\Persistance.pdb
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\Application.csprojAssemblyReference.cache
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\Application.AssemblyInfoInputs.cache
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\Application.AssemblyInfo.cs
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\Application.csproj.CoreCompileInputs.cache
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\Application.csproj.CopyComplete
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\Application.dll
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\ref\Application.dll
+E:\CODE\dotnet udemy\Reactivities\Application\obj\Debug\net5.0\Application.pdb
