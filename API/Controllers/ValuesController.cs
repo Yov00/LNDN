@@ -1,29 +1,42 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
-
+using Domain;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Persistance;
 
 namespace API.Controllers
 {
-    public class ProductController : Controller
+    public class ValuesController : Controller
     {
+        private  DataContext _context;
+        public ValuesController(DataContext context)
+        {
+            _context = context;
+        }
         //
         // GET: /Products/
         [Route("api/")]
         [HttpGet]
-        public string Index()
+        public async Task<ActionResult<IEnumerable<Value>>> Index()
         {
-            // Add action logic here
-            return "Devil Inside";
+            var values = await _context.Values.ToListAsync();
+            return Ok(values);
         }
 
         [Route("api/{id}")]
         [HttpGet]
-        public string UserPage(int id)
+        public async Task<ActionResult<Value>> Get(int id)
         {
-            return $"Your ID is {id.ToString()}";
+            var value = await _context.Values.FindAsync(id);
+            if(value  != null)
+            {
+                return Ok(value);
+            }
+            return Ok("No value found");
         }
     }
 }
