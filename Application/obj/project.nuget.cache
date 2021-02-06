@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HF51WQCMirXVDkyvztsJpWqgGVbWlO2XYk0ys20KE55LbYgya96T9ipOcKe76/UELAMuE7iQFql0P8dzYH7jXw==",
+  "dgSpecHash": "kEZ+uLDpfiX+kKG7uDKE8J8N6ko5ogQh+YdIPJaNo79FWjiaqs/gPhfjEFbBXzhm7P4jg0rtUaWaOXJgS65Qgg==",
   "success": true,
-  "projectFilePath": "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\Application.csproj",
+  "projectFilePath": "E:\\CODE\\dotnet udemy\\LNDN\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.2\\microsoft.data.sqlite.core.5.0.2.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

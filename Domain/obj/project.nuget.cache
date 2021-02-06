@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AL1YsNxxLKwl/r8uR3r53IBey06UPElP69gfCXrDrAEU0Ml2Tw2T6SXylWk2f6ptDoPEeyRq5k5qAGd8iSCV4g==",
+  "dgSpecHash": "BIt4FLs/hUHly+hIkqrKZdz05KRRaMKZPvhVjCOBxf1c4QphvZ5+Ojv6NDGUq1dH/bmjD9QL+M2j6IL2Lm3WSQ==",
   "success": true,
-  "projectFilePath": "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj",
+  "projectFilePath": "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

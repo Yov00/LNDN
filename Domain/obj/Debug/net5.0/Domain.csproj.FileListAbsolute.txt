@@ -10,3 +10,15 @@ E:\CODE\dotnet udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.csproj.CoreComp
 E:\CODE\dotnet udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.dll
 E:\CODE\dotnet udemy\Reactivities\Domain\obj\Debug\net5.0\ref\Domain.dll
 E:\CODE\dotnet udemy\Reactivities\Domain\obj\Debug\net5.0\Domain.pdb
+E:\CODE\dotnet udemy\LNDN\Domain\bin\Debug\net5.0\Domain.deps.json
+E:\CODE\dotnet udemy\LNDN\Domain\bin\Debug\net5.0\Domain.dll
+E:\CODE\dotnet udemy\LNDN\Domain\bin\Debug\net5.0\ref\Domain.dll
+E:\CODE\dotnet udemy\LNDN\Domain\bin\Debug\net5.0\Domain.pdb
+E:\CODE\dotnet udemy\LNDN\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+E:\CODE\dotnet udemy\LNDN\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\CODE\dotnet udemy\LNDN\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+E:\CODE\dotnet udemy\LNDN\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+E:\CODE\dotnet udemy\LNDN\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+E:\CODE\dotnet udemy\LNDN\Domain\obj\Debug\net5.0\Domain.dll
+E:\CODE\dotnet udemy\LNDN\Domain\obj\Debug\net5.0\ref\Domain.dll
+E:\CODE\dotnet udemy\LNDN\Domain\obj\Debug\net5.0\Domain.pdb

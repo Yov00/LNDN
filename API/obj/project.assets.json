@@ -1314,11 +1314,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CODE\\dotnet udemy\\Reactivities\\API\\API.csproj",
+      "projectUniqueName": "E:\\CODE\\dotnet udemy\\LNDN\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\API\\API.csproj",
+      "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\API\\API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\CODE\\dotnet udemy\\Reactivities\\API\\obj\\",
+      "outputPath": "E:\\CODE\\dotnet udemy\\LNDN\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1335,8 +1335,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\Application.csproj": {
-              "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\Application.csproj"
+            "E:\\CODE\\dotnet udemy\\LNDN\\Application\\Application.csproj": {
+              "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Application\\Application.csproj"
             }
           }
         }

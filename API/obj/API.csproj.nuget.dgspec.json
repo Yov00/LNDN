@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CODE\\dotnet udemy\\Reactivities\\API\\API.csproj": {}
+    "E:\\CODE\\dotnet udemy\\LNDN\\API\\API.csproj": {}
   },
   "projects": {
-    "E:\\CODE\\dotnet udemy\\Reactivities\\API\\API.csproj": {
+    "E:\\CODE\\dotnet udemy\\LNDN\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CODE\\dotnet udemy\\Reactivities\\API\\API.csproj",
+        "projectUniqueName": "E:\\CODE\\dotnet udemy\\LNDN\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\API\\API.csproj",
+        "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\API\\API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\CODE\\dotnet udemy\\Reactivities\\API\\obj\\",
+        "outputPath": "E:\\CODE\\dotnet udemy\\LNDN\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\Application.csproj": {
-                "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\Application.csproj"
+              "E:\\CODE\\dotnet udemy\\LNDN\\Application\\Application.csproj": {
+                "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Application\\Application.csproj"
               }
             }
           }
@@ -75,14 +75,14 @@
         }
       }
     },
-    "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\Application.csproj": {
+    "E:\\CODE\\dotnet udemy\\LNDN\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\Application.csproj",
+        "projectUniqueName": "E:\\CODE\\dotnet udemy\\LNDN\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\Application.csproj",
+        "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Application\\obj\\",
+        "outputPath": "E:\\CODE\\dotnet udemy\\LNDN\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,11 +99,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj"
+              "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj"
               },
-              "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\Persistance.csproj": {
-                "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\Persistance.csproj"
+              "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\Persistance.csproj": {
+                "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -136,14 +136,14 @@
         }
       }
     },
-    "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj": {
+    "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj",
+        "projectUniqueName": "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj",
+        "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\obj\\",
+        "outputPath": "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -190,14 +190,14 @@
         }
       }
     },
-    "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\Persistance.csproj": {
+    "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\Persistance.csproj",
+        "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\Persistance.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\obj\\",
+        "outputPath": "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,8 +214,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj": {
-                "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj"
+              "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj": {
+                "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj"
               }
             }
           }

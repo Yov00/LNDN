@@ -959,11 +959,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\Persistance.csproj",
+      "projectUniqueName": "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\Persistance.csproj",
       "projectName": "Persistance",
-      "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\Persistance.csproj",
+      "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\Persistance.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Persistance\\obj\\",
+      "outputPath": "E:\\CODE\\dotnet udemy\\LNDN\\Persistance\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -980,8 +980,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj": {
-              "projectPath": "E:\\CODE\\dotnet udemy\\Reactivities\\Domain\\Domain.csproj"
+            "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj": {
+              "projectPath": "E:\\CODE\\dotnet udemy\\LNDN\\Domain\\Domain.csproj"
             }
           }
         }
