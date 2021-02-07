@@ -123,3 +123,5 @@ E:\CODE\dotnet udemy\LNDN\API\obj\Debug\net5.0\ref\API.dll
 E:\CODE\dotnet udemy\LNDN\API\obj\Debug\net5.0\API.pdb
 E:\CODE\dotnet udemy\LNDN\API\obj\Debug\net5.0\API.genruntimeconfig.cache
 E:\CODE\dotnet udemy\LNDN\API\bin\Debug\net5.0\appsettings.json
+E:\CODE\dotnet udemy\LNDN\API\bin\Debug\net5.0\MediatR.dll
+E:\CODE\dotnet udemy\LNDN\API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

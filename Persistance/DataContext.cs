@@ -21,10 +21,6 @@ namespace Persistance
                 new Value {Id = 3, Name = "Value 103"}
             );
 
-            // builder.Entity<Activity>()
-            // .HasData(
-
-            // );
         }
     }
 }
