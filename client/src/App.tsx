@@ -27,9 +27,7 @@ function App() {
     <div className="App">
       <Header as="h2" icon="users" content="Reactivities" />
       <List>
-        
         {displayActivities}
-
      </List>
     </div>
   );
