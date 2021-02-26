@@ -7,11 +7,12 @@ import './app/layout/styles.css';
  
 // Semantic UI
 import 'semantic-ui-css/semantic.min.css'
+import { store, StoreContext } from './app/stores/store';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <StoreContext.Provider value={store}>
     <App />
-  </React.StrictMode>,
+  </StoreContext.Provider>,
   document.getElementById('root')
 );
 
