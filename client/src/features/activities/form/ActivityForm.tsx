@@ -1,16 +1,19 @@
 import { observe } from 'mobx';
 import { observer } from 'mobx-react-lite';
-import React,{ChangeEvent, useState} from 'react';
+import React,{ChangeEvent, useState,useEffect} from 'react';
+import { useParams } from 'react-router-dom';
 import { Button, Form, Segment } from 'semantic-ui-react';
+import LoadingComponent from '../../../app/layout/LoadingComponent';
 import { Activity }  from '../../../app/models/activity';
 import { useStore } from '../../../app/stores/store';
 
 
 export default observer(function ActivityForm(){
     const {activityStore} = useStore();
-    const {selectedActivity,loading,openForm,closeForm,createActivity,updateActivity} = activityStore;
+    const {loadingInitial,loading,createActivity,updateActivity,loadActivity} = activityStore;
+    const {id } = useParams<{id:string}>();
 
-    const initialState = selectedActivity ?? {
+    const [activity,setActivity] = useState({
         id:'',
         title:'',
         category:'',
@@ -18,8 +21,13 @@ export default observer(function ActivityForm(){
         date:'',
         city:'',
         venue:''
-    }
-    const [activity,setActivity] = useState(initialState);
+    });
+
+    useEffect(() => {
+      if(id){
+        loadActivity(id).then(activity => setActivity(activity!));
+      }
+    }, [id,loadActivity])
     
     function handleSubmit(){
       activity.id? updateActivity(activity) : createActivity(activity);
@@ -28,6 +36,8 @@ export default observer(function ActivityForm(){
     function handleOnChange(e:ChangeEvent<HTMLInputElement | HTMLTextAreaElement>){
         setActivity({...activity,[e.target.name]:e.target.value})
     }
+    
+    if(loadingInitial) return <LoadingComponent content="Loading activity..." />
     
     return(
         <Segment clearing>
@@ -39,7 +49,7 @@ export default observer(function ActivityForm(){
                 <Form.Input placeholder="City" value={activity?.city} name="city" onChange={e=>handleOnChange(e)}/>
                 <Form.Input placeholder="Venue" value={activity?.venue} name="venue" onChange={e=>handleOnChange(e)}/>
                 <Button loading={loading} floated="right" positive type="submit" content="Submit"/>
-                <Button onClick={closeForm} floated="right"  type="button" content="Cancel" />
+                <Button  floated="right"  type="button" content="Cancel" />
             </Form>
         </Segment>
     )
