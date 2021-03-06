@@ -16,8 +16,6 @@ function ActivityDetails(){
     if(id){
       loadActivity(id);
     }
-    console.log(id);
-   
   }, [id,loadActivity]);
 
 
