@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using API.Extensions;
 using Application.Activities;
 using Application.Core;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -36,7 +37,12 @@ namespace API
         {
          
             services.AddApplicationServices(_config,MyAllowSpecificOrigins);
-            services.AddControllers();
+            services.AddControllers().AddFluentValidation(config=>
+            {
+                config.RegisterValidatorsFromAssemblyContaining<Create>();
+            }
+            );
+         
 
         }
 
