@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import "react-calendar/dist/Calendar.css"
 import './app/layout/styles.css';
 import "react-toastify/dist/ReactToastify.min.css";
+import "react-datepicker/dist/react-datepicker.css";
 // Semantic UI
 import 'semantic-ui-css/semantic.min.css';
 import { store, StoreContext } from './app/stores/store';
