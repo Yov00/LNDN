@@ -27,8 +27,6 @@ function ActivityDetails(){
 
     return (
       <div>
-        <h1>asdsa</h1>
-      {console.log('asdsad')}
         <Grid>
         <Grid.Column width={10}>
      
