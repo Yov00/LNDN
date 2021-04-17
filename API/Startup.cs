@@ -38,6 +38,7 @@ namespace API
         {
          
             services.AddApplicationServices(_config,MyAllowSpecificOrigins);
+            services.AddIdentityServices(_config);
             services.AddControllers().AddFluentValidation(config=>
             {
                 config.RegisterValidatorsFromAssemblyContaining<Create>();
