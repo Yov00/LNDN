@@ -1,7 +1,9 @@
 import axios, { AxiosError, AxiosResponse } from 'axios';
+import { request } from 'node:http';
 import { toast } from 'react-toastify';
 import { history } from '../..';
 import { Activity } from '../models/activity';
+import { User, UserFormValues } from '../models/user';
 import { store } from '../stores/store';
 
 axios.defaults.baseURL = 'http://localhost:5000/api';
@@ -69,10 +71,16 @@ const Activities = {
     delete: (id: string) => axios.delete<void>(`/activities/${id}`)
 }
 
+const Account = {
+    current:()=> requests.get<User>('/account'),
+    login:(user:UserFormValues) => requests.post<User>('/account/login',user),
+    register:(user:UserFormValues) => requests.post<User>('/account/register',user)
+}
+
 
 const agent = {
-    Activities
-
+    Activities,
+    Account
 }
 
 export default agent;
