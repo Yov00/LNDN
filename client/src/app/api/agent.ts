@@ -16,6 +16,14 @@ const sleep = (delay: number)=>{
 
 const responseBody =<T> (response: AxiosResponse<T>) => response.data;
 
+// Sending user token with every single request
+axios.interceptors.request.use(config =>{
+    const token = store.commonStore.token;
+    if(token) config.headers.Authorization =`Bearer ${token}`;
+    return config;
+
+});
+
 axios.interceptors.response.use(async response=>{
         await sleep(1000);
         return response;
