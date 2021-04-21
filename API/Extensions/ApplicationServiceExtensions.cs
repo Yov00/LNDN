@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using Application.Activities;
 using Application.Core;
+using Application.Interfaces;
+using Infrastructure.Security;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -37,6 +39,7 @@ namespace API.Extensions
             {
                 opt.UseSqlite(config.GetConnectionString("DefaultConnection"));
             });
+            services.AddScoped<IUserAccessor, UserAccessor>();
 
             return services;
         }
