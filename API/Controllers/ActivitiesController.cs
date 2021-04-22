@@ -9,10 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [AllowAnonymous]
     public class ActivitiesController : BaseApiController
     {
-    
 
         [HttpGet]
         public async Task<IActionResult> GetActivities()
@@ -45,5 +43,6 @@ namespace API.Controllers
         {
            return HandleResult(await Mediator.Send(new Delete.Command{Id = id}));
         }
+ 
     }
 }
