@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { Button, Icon, Item, Label, Segment } from "semantic-ui-react";
 import { Activity } from "../../../app/models/activity";
 import { useStore } from "../../../app/stores/store";
+import ActivityListItemAttendee from "./ActivityListItemAttendee";
 
 interface Props {
     activity: Activity
@@ -29,7 +30,21 @@ export default function ActivityListItem({activity}:Props){
                                {activity.title}
                            </Item.Header>
                            <Item.Description>
-                               Hosted by Bob
+                               Hosted by {activity.host?.displayName}
+                            {activity.isHost &&(
+                                <Item.Description>
+                                    <Label basic color="orange">
+                                        You are hosting this activity
+                                    </Label>
+                                </Item.Description>
+                            )}
+                             {activity.isGoing && !activity.isHost && (
+                                <Item.Description>
+                                    <Label basic color="green">
+                                        You are going to this activity
+                                    </Label>
+                                </Item.Description>
+                            )}
                            </Item.Description>
                        </Item.Content>
                    </Item>
@@ -42,7 +57,7 @@ export default function ActivityListItem({activity}:Props){
                </span>
            </Segment>
            <Segment secondary>
-               Attendees go here
+             <ActivityListItemAttendee attendees={activity.attendees!}/>
            </Segment>
            <Segment clearing>
                <span>{activity.description}</span>
