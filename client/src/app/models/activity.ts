@@ -1,7 +1,7 @@
 import { Profile } from "./profile";
 
 export interface Activity {
-    id?: string;
+    id: string;
     title: string;
     date: Date | null ;
     description: string;
@@ -27,7 +27,7 @@ export class ActivityFromValues {
     id?: string = undefined;
     title: string = '';
     category: string = '';
-    decription: string = '';
+    description: string = '';
     date: Date | null = null;
     city: string = '';
     venue: string = '';
@@ -37,7 +37,7 @@ export class ActivityFromValues {
             this.id = activity.id;
             this.title = activity.title;
             this.category= activity.category;
-            this.decription = activity.decription;
+            this.description = activity.description;
             this.date = activity.date;
             this.venue = activity.venue;
             this.city = activity.city;
