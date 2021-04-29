@@ -1,7 +1,7 @@
 import { Profile } from "./profile";
 
 export interface Activity {
-    id: string;
+    id?: string;
     title: string;
     date: Date | null ;
     description: string;
@@ -13,8 +13,34 @@ export interface Activity {
     isGoing?: boolean;
     isHost?:boolean;
     host?:Profile;
-    attendees?:Profile[];
+    attendees:Profile[];
 }
 
+export class Activity implements Activity{
+    constructor(init?: ActivityFromValues){
+        //Populate all of the properties it can
+        Object.assign(this,init);
+    }
+}
 
+export class ActivityFromValues {
+    id?: string = undefined;
+    title: string = '';
+    category: string = '';
+    decription: string = '';
+    date: Date | null = null;
+    city: string = '';
+    venue: string = '';
 
+    constructor(activity?: ActivityFromValues){
+        if(activity){
+            this.id = activity.id;
+            this.title = activity.title;
+            this.category= activity.category;
+            this.decription = activity.decription;
+            this.date = activity.date;
+            this.venue = activity.venue;
+            this.city = activity.city;
+        }
+    }
+}
