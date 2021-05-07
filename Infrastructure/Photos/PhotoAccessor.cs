@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using Application.Interfaces;
 using Application.Photos;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
@@ -30,9 +31,9 @@ namespace Infrastructure.Photos
                 {
                     File = new FileDescription(file.Name, stream),
                     Transformation = new Transformation().Height(500).Width(500).Crop("fill"),
-                    PublicId = "my_folder/my_sub_folder/my_dog",
-                    Overwrite = true,
-                    NotificationUrl = "https://mysite.example.com/my_notification_endpoint"
+                    // PublicId = "my_folder/my_sub_folder/my_dog",
+                    // Overwrite = true,
+                    // NotificationUrl = "https://mysite.example.com/my_notification_endpoint"
                 };
 
                 var uploadResult = await _cloudinary.UploadAsync(uploadParams);  

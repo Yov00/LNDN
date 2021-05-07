@@ -1,3 +1,5 @@
+using System;
+using System.Threading.Tasks;
 using Domain;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +28,11 @@ namespace Persistence
                 .HasOne(u => u.Activity)
                 .WithMany(a => a.Attendees)
                 .HasForeignKey(aa => aa.ActivityId);
+        }
+
+        public Task include()
+        {
+            throw new NotImplementedException();
         }
     }
 }

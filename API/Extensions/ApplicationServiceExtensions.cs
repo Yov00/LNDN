@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using Application.Activities;
 using Application.Core;
 using Application.Interfaces;
-using Application.Photos;
 using Infrastructure.Photos;
 using Infrastructure.Security;
 using MediatR;
